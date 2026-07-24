@@ -1,9 +1,31 @@
 aid: careport-health
 name: Careport Health
-description: Careport Health is a company surfaced as a portfolio company of 500-global, techstars and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  CarePort Health, powered by WellSky, is a healthcare technology company
+  providing care coordination and patient transition management across the
+  entire care continuum. Its platform connects hospitals, health systems, ACOs,
+  physician groups, payers, and post-acute providers to manage discharge
+  planning, referrals, transitions of care, emergency department optimization,
+  utilization and authorization management, and value-based programs. Products
+  include Guide, Connect, Insight, Care Management, Transition, Referral
+  Management, Intake, and Discharge, with EHR integrations for Epic and Cerner.
+  CarePort reports covering 14M lives across roughly 2,000 hospitals in 43 U.S.
+  states. It was added to the API Evangelist network as a portfolio lead (500
+  Global, Techstars); no public developer API, developer portal, or
+  documentation surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/careport-health/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://careporthealth.com/wp-content/uploads/2023/12/lives-covered.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,9 +35,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Care Coordination
+- Discharge Planning
+- Post-Acute Care
+- Transitional Care
+- Health IT
+- Interoperability
+- Value-Based Care
+- Referral Management
+- Utilization Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +55,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/careport-health-domain-security.yml
 - type: Website
   url: https://careporthealth.com
+- type: Blog
+  url: https://careporthealth.com/resources/blog/
+- type: Support
+  url: https://careporthealth.com/contact-support/
+- type: PrivacyPolicy
+  url: https://careporthealth.com/privacy-policy/
+- type: Login
+  url: https://guide.careporthealth.com/sign_in
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
